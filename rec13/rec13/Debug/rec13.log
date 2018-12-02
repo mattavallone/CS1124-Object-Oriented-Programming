@@ -1,0 +1,14 @@
+﻿Build started 12/4/2015 10:28:52 AM.
+     1>Project "c:\Users\matta_000\documents\visual studio 2015\Projects\rec13\rec13\rec13.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt rec13.cpp
+         rec13.cpp
+     1>c:\users\matta_000\documents\visual studio 2015\projects\rec13\rec13\rec13.cpp(94): warning C4715: 'Sequence::data': not all control paths return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\matta_000\documents\visual studio 2015\Projects\rec13\Debug\rec13.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"c:\users\matta_000\documents\visual studio 2015\Projects\rec13\Debug\rec13.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\matta_000\documents\visual studio 2015\Projects\rec13\Debug\rec13.lib" /MACHINE:X86 Debug\rec13.obj
+         rec13.vcxproj -> c:\users\matta_000\documents\visual studio 2015\Projects\rec13\Debug\rec13.exe
+     1>Done Building Project "c:\Users\matta_000\documents\visual studio 2015\Projects\rec13\rec13\rec13.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.46

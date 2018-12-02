@@ -1,0 +1,34 @@
+Focus
+Dynamic memory
+
+Problem:
+Building on the last few assignments, we will use the classes from hw03 together with the idea of reading a file of commands as we did in hw01. The classes from hw03 should not need many changes.
+
+Key differences:
+
+Each time a warrior or a noble is defined, we will create it on the heap.
+We will keep track of the nobles in a vector of pointers to nobles.
+We will keep track of all "out of work", i.e. available to be hired, warriors using a vector of pointers to warriors.
+The input file will be named "nobleWarriors.txt".
+
+Commands
+Noble. Create a Noble on the heap.
+Warrior. Create a Warrior on the heap.
+Hire. Call the Noble's hire method.
+Fire. Call the Noble's fire method.
+Battle. Call the Noble's battle method.
+Status. The status command shows the nobles, together with their armies, in a similar way that the Noble display method did in hw03. In addition, it will show the warriors who do not have an employer, either because they were fired or never hired.
+Clear. Clear out all the nobles and warriors that were created.
+Our application is going to rely on each Noble having a unique name and each Warrior having a unique name. Otherwise, how would we be sure who we were hiring (or firing). Note that this is not a requirement of the Noble and Warrior classes themselves, just of this particular use of them.
+
+Handle errors!
+Previously we promised that all of the commands we gave you, the input would be valid. Now we would like you to take some responsibility for checking the input. First, we still guarantee that the format of the file will be correct. That means that the Warrior command will always have a name and a strength. The Battle command will always have two names. The Status command will not have any other information on it than just the word Status.
+
+However, you will need to detect and report any issues indicating inconsistencies, such as:
+
+Noble command: if a Noble with a given name already exists.
+Warrior command:if a Warrior with a given name already exists.
+Hire command: If a Noble tries to hire a Warrior and either of them do not exist.
+Fire command: If a Noble tries to fire a Warrior and either of them do not exist.
+If a Noble initiates a battle with another Noble, but either of them do not exit, 
+We have not specified the format of these messages, so we'll leave that up to you. (You get to be creative!)

@@ -1,0 +1,16 @@
+Homework 6
+
+Focus
+Cyclic Association
+Operator overloading
+Separate compilation
+Namespace
+
+Problem:
+We are revisiting the world of hw03, adding one new feature: not only can warriors be fired, they can also runaway!!! Of course, when a warrior runs away, he has to inform his noble. Which means he has to know who has hired him and be able to communicate with him. Which means, obviously, that he will need a pointer to his noble.  Good thing we learned about forward class declarations!
+
+You will also:
+
+Use separate compilation for all methods, giving each class its own header and implementation files.
+Place the code in the WarriorCraft namespace.
+Implement an output operator for Nobles.

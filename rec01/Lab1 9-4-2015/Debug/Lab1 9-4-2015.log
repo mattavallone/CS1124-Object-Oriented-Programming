@@ -1,0 +1,8 @@
+﻿Build started 9/4/2015 11:27:36 AM.
+     1>Project "c:\Users\matta_000\documents\visual studio 2015\Projects\Lab1 9-4-2015\Lab1 9-4-2015\Lab1 9-4-2015.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft\WindowsXaml\v14.0\8.2\Microsoft.Windows.UI.Xaml.Common.targets(263,5): Xaml Internal Error error WMC9999: Data at the root level is invalid. Line 2, position 4.
+     1>Done Building Project "c:\Users\matta_000\documents\visual studio 2015\Projects\Lab1 9-4-2015\Lab1 9-4-2015\Lab1 9-4-2015.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.28

@@ -1,0 +1,33 @@
+Homework 3
+
+Focus
+Classes
+Association
+
+Problem:
+We will model a game of medieval times. Our world is filled with nobles and warriors. Nobles don't have much to do except do battle with each other. (We'll leave the feasting and other entertainments for add-ons.) Warriors don't have much to do except hire out to a noble and fight in his behalf. Of course the nobles are pretty wimpy themselves and will lose if they don't have warriors to defend them. How does all this work?
+
+Warriors start out with a specified strength.
+A battle between nobles is won by the noble who commands the stronger army.
+The army's strength is simply the combined strengths of all its warriors.
+A battle is to the death. The losing noble is dead as are his warriors.
+The winner does not usually walk away unscarred. All his men lose a portion of their strength equal to the ratio of the enemy army's combined strenth to their army's. If the losing army had a combined strength that was 1/4 the size of the winning army's, then each soldier in the winning army will have their own strength reduced by 1/4.
+A test program and output are shown below.
+
+Programming Constraints
+What would a homework assignment be without unnecessary and unreasonable constraints?
+
+Your classes must satisfy the following:
+
+The battle method will announce who is battling whom, and the result.
+If one or both of the nobles is already dead, just report that. 
+The "winner" doesn't win anything for kicking around a dead guy. And his warriors don't use up any strength.
+Look at the output for the sample test program to see what you should be displaying.
+A noble's army is a vector of pointers to warriors.
+
+And some things to make life easier
+Sure it's more fun to make you do lots of work, but I decided to give you a break on error checking. You may assume that:
+
+If a noble hires a warrior, both already exist and the warrior has not been hired by anyone else.
+If two nobles do battle, they both already exist (though no guarantees that they are still alive).
+Also, just in case you are confused, let me point out that this problem does not involve the use of the heap.  That means your program will not make use of new or delete.
